@@ -138,6 +138,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    display: none;
 }
 
 #rendezvous h2 {
@@ -226,12 +227,14 @@ h1 {
 /*image femme maillot orange*/
 
 #how_to_img figure {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     width: 100%;
 }
 
 #how_to figure img {
     width: 100%;
+    
 }
 
 /*comment faire*/
@@ -248,7 +251,7 @@ h1 {
 #etapes_how_to ol {
     width: 100%;
     list-style-type: decimal inside;
-    /* pour ne plus avoir les numéros de la liste*/
+    padding-left: 45px;
 }
 
 #etapes_how_to ol li::marker {
@@ -319,37 +322,39 @@ h1 {
     }
     /*SECTION 1 / Main topic*/
     #main_topic{
-        border: 2px solid red;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center; 
         justify-content: flex;
         flex-wrap: wrap;
     }
-    #main_topic h1{
-        order: 2;
-    }
-    #main_topic_img{border:2px blue solid;
+    /* #main_topic h1{
+
+    } */
+    #main_topic_img{
         width: 50%;
-        height: 100%;
         order: 1;
-    
+        align-self:flex-start;
+
     }
     #main_topic_img figure{
-        width: 30%;
+        width: 100%;
     }
     #main_topic_img img{
-    max-width: 100%;
-    height: auto;
-    }
+    max-width: 100%;}
+    
+    /* }
     #main_topic p {
-        order: 3;
+       
     }
     #main_topic button {
-        order: 4;
+       
     }
-    #en_savoir_plus {border:2px green solid;
-        width: 50%;
-        order: 5;
+    #en_savoir_plus {
+       
+    } */
+    /* SECTION 2 / Rendez vous*/
+    #rendezvous{
+        display: block;
     }
 
     /*SECTION 3 / How to*/
