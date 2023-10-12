@@ -187,8 +187,6 @@ h1 {
 }
 
 .card-body h3 {
-    margin-top: -12px;
-    /* pour faire remonter le titre*/
     margin-bottom: 10px;
 }
 
@@ -332,7 +330,6 @@ h1 {
     } */
     #main_topic_img{
         width: 50%;
-        order: 1;
         align-self:flex-start;
 
     }
